@@ -1,0 +1,71 @@
+=================================================================
+LAPORAN PERBANDINGAN ALGORITMA A* DAN GBFS
+GRID MAZE
+=================================================================
+
+Tanggal pengujian : 2026-11-22 15:39:45
+Jenis Grid        : preset
+Nama Grid         : Grid Tanpa Jalur
+
+INFORMASI GRID
+-----------------------------------------------------------------
+Jumlah baris       : 5
+Jumlah kolom       : 5
+Jumlah seluruh sel : 25
+Sel dapat dilalui  : 20
+Jumlah dinding     : 5
+Start              : (2, 0)
+Goal               : (2, 4)
+
+=================================================================
+HASIL A*
+=================================================================
+Status          : Tidak ditemukan
+Path            : None
+Path Length     : None
+Generated Nodes : 10
+Expanded Nodes  : 10
+Time Runs       : 10
+Time Mean       : 0.039560 ms
+Time Median     : 0.037404 ms
+Memory Runs     : 10
+Memory Median   : 2.273438 KB
+
+=================================================================
+HASIL GBFS
+=================================================================
+Status          : Tidak ditemukan
+Path            : None
+Path Length     : None
+Generated Nodes : 10
+Expanded Nodes  : 10
+Time Runs       : 10
+Time Mean       : 0.030615 ms
+Time Median     : 0.030065 ms
+Memory Runs     : 10
+Memory Median   : 1.992188 KB
+
+=================================================================
+RINGKASAN PERBANDINGAN
+=================================================================
+
+Algoritma       Path   Generated    Expanded
+--------------------------------------------
+A*              None          10          10
+GBFS            None          10          10
+
+=================================================================
+KESIMPULAN
+=================================================================
+Kedua algoritma tidak menemukan jalur pada kasus ini.
+Jumlah expanded nodes kedua algoritma sama.
+Median waktu GBFS lebih rendah pada pengukuran ini.
+Median peak traced memory GBFS lebih rendah pada kasus ini.
+
+=================================================================
+CATATAN PENGUKURAN
+=================================================================
+Pengukuran waktu hanya mencakup pemanggilan fungsi inti algoritma.
+Pengukuran memori dilakukan secara terpisah menggunakan tracemalloc.
+tracemalloc mengukur alokasi memori Python yang dilacak, bukan keseluruhan RAM proses.
+Hasil pengukuran berlaku untuk kasus Grid dan lingkungan pengujian ini.

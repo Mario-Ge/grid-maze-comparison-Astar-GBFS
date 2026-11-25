@@ -1,0 +1,3 @@
+timestamp,maze_type,maze_name,rows,cols,n,passable_cells,wall_cells,start_row,start_col,goal_row,goal_col,algorithm,found,path_length,generated_nodes,expanded_nodes,time_runs,time_mean_ms,time_median_ms,memory_runs,memory_median_kb
+2026-11-23 18:12:27,preset,Grid Banyak Penghalang,7,7,49,33,16,0,0,6,6,A*,True,12,25,21,10,0.11588,0.10965,10,7.2265625
+2026-11-23 18:12:27,preset,Grid Banyak Penghalang,7,7,49,33,16,0,0,6,6,GBFS,True,12,20,16,10,0.19003,0.1412,10,4.171875
