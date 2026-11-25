@@ -311,12 +311,6 @@ Laporan TXT memuat informasi Grid, hasil kedua algoritma, metrik pengukuran, tab
 - Waktu dan penggunaan memori dipengaruhi kondisi komputer dan proses lain yang sedang berjalan.
 - Kesimpulan perbandingan harus berdasarkan hasil eksperimen aktual.
 
-## 13. Dokumen Proyek
-
-- project.md: Spesifikasi proyek.
-- skill.md: Pedoman pengembangan.
-- progress.md: Catatan perkembangan dan hasil pemeriksaan.
-
 ---
 
 Proyek Analisis Perbandingan Algoritma A* dan GBFS pada Grid Maze Menggunakan Python.
